@@ -1,0 +1,73 @@
+:root {
+
+    --primary-color: #1d5888;
+    --secondary-color: #ff993b;
+    --dark-color: #292929;
+    --white-color: #eff3df;
+
+}
+
+body{
+    color:var(--dark-color);
+}
+
+nav{
+    background-color:var(--dark-color);
+}
+
+footer{
+    background-color: var(--dark-color);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--primary-color);
+}
+
+footer{
+    padding-right: 1rem;
+}
+
+footer .social>a{
+    color: var(--white-color)
+    
+}
+
+footer .social>a:hover{
+    color:rgb(8, 166, 206);;
+}
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.bsicon{
+    color:purple;
+}
+
+.jsicon{
+    color:rgb(255, 217, 0);
+}
+.html5icon{
+    color:rgb(255, 72, 0);
+}
+.css3icon{
+    color:rgb(0, 119, 255);
+}
+
+.checklist >li i{
+    color: rgb(76, 214, 238)
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+white-space: pre-wrap;
+word-break: break-all;
+word-wrap: break-word;
+}
