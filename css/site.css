@@ -71,3 +71,42 @@ white-space: pre-wrap;
 word-break: break-all;
 word-wrap: break-word;
 }
+
+.senatorUltra {
+    font-family: senator, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.senatorThin {
+    font-family: senator, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.senatorTall {
+    font-family: senator-tall, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.talonRegular {
+    font-family: talon,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clobberCrunch {
+    font-family: ccclobberintimecrunchy, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.clobberSmooth {
+    font-family: ccclobberintimesmooth, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
