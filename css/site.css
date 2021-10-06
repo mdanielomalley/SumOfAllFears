@@ -9,6 +9,7 @@
 
 body{
     color:var(--dark-color);
+    /* background-image:radial-gradient(circle, #051937, #082848, #0c3758, #104769) */
 }
 
 nav{

@@ -61,7 +61,44 @@
 </nav>
 <main class="flex-shrink-0">
     <div class="container">
+        <div class="row mt-3">
+            <div class="col border-end">
+                <div class="rev-style-headingB">
+                    <h3 class="clobberCrunch">Intructions:</h3>
+                    <p>Given a list of numbers and a number x, return whether any two numbers from the list add up to x. For example, 
+                       given [10, 15, 3, 7] and x of 17, return true since 10 + 7 is equal to 17.
+                    </p>
+                </div>
+            </div>
+            <div class="col mt-2">
+                <label><span class="me-2 senatorUltra">Enter a Number:</span><input id="sumValue" type="number" name="sum" value="17"></label>
+                <label><span class="me-1"></span><input class="btn btn-success senatorUltra" type="submit" onclick="displayAllSums()" value="Find It"></label>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col border-end">
 
+            </div>
+            <div class="col mb-4">
+                <label><span class="me-1 senatorUltra">Numbers to Search:</span></label>
+                <div id="numList">---</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col border-end">
+
+            </div>
+            <div class="col mt-5">
+                <label><span class="me-1 senatorUltra">Results:</span>
+                    <p id="results"></p>
+                </label>
+                
+            </div>
+        </div>
+        
+       
+        
     </div>
 </main>
 <footer class="footer mt-auto py-3 sticky-footer">
