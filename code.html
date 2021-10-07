@@ -67,8 +67,7 @@
         <h2 class="border-1 border-bottom border-dark p-2 clobberCrunch">The Code for The Sum of All Fears</h2>
         <div class="row row-cols-1 row-cols-lg-2">
             <div class="col-lg-8">
-                <pre class="line-numbers">
-                    <code class="language-javascript">
+                <pre class="line-numbers"><code class="language-javascript">
                         //Given alist of numbers and a number x, return whether any two numbers from the list add up to x. For example, 
 //given [10, 15, 3, 7] and x of 17, return true since 10 + 7 is equal to 17.
 
@@ -140,7 +139,7 @@ function findSumD(numbers, answer){
     let checkIndex = -1;
     let ansArray = [];
 
-    for(let i = 0; i<numbers.length - 1; i++){
+    for(let i = 0; i < numbers.length - 1; i++){
         checkValue = answer - numbers[i];
         checkIndex = numbers.indexOf(checkValue);
 
@@ -191,12 +190,20 @@ function generateNumbers(max){
     }
     return arr;
 }
-                    </code>
-                </pre>
+                </code></pre>
             </div>
             <div class="col-lg-4">
                 <h5 class="clobberSmooth">The Sum of All Fears</h5>
-                <p>This is a working example of the code I built for The Sum of All Fears</p>
+                <p>Displayed here are four different solutions to The Sum of All Fears coding challenge. I go through the most straight-forward 
+                    methods to the most efficient. I also included a function that generates an array of 20 random numbers to avoid hard coding a selected list. 
+                    This way users can see for themselves the different combinations that may yield the answer to the number they seek.
+                </p>
+                <p>In the Two Loop Method, the most straight-forward approach, I nest a for-loop inside of another for-loop in order to compare the beginning index to each subsequent index.
+                    If no result is found true, the following index is compared to the subsequent indices. This process continues until a combination is either found true otherwise it returns false.
+                </p>
+                <p>
+                    The Reordered Array Method
+                </p>
             </div>
         </div>
     </div>
